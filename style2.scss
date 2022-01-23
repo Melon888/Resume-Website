@@ -1,0 +1,139 @@
+$bp-lap: 37.5em; // 600px @ 16px
+
+// Background variables
+// $background-light: #fefbef;
+// $background-dark: #403f3c;
+
+// Color variables
+// $type-light: $background-light;
+// $type-dark: $background-dark;
+
+$button-color-primary-light: #e690cc;
+$button-color-primary-dark: #e62dae;
+
+// Transform variables
+$button-bounce: scale(0.98);
+
+// Transition variables
+$button-transition-duration: 300ms;
+$button-cycle-busy: 2s ease-in-out infinite;
+
+// Border variables
+$button-border-width-thin: 2px;
+$button-border-width-thick: 3px;
+
+// Animation
+@keyframes button-busy {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+
+
+
+//css begins
+html {
+  height: 150%;
+  width: 100%;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.Container {
+  width: 100vw;
+  height: 150vh;
+  background: url("/utt.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.my_navbar {
+  width: 100%;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.nav-item a {
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.Container p {
+  color: white;
+}
+
+.myPic {
+  width: 15%;
+  clip-path: circle();
+  margin-top: -3rem;
+  margin-bottom: -1rem;
+  /* box-shadow: 0px 10px -14px 14px #fff; */
+}
+
+.name {
+  font-family: "Varela Round", sans-serif;
+  font-size: 6.5rem;
+  font-weight: 25;
+  line-height: 7.5rem;
+  letter-spacing: 0.5rem;
+  color: #a6a6a6;
+}
+.me_list {
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  flex-direction: row;
+  color: #a6a6a6;
+  justify-content: space-around;
+}
+.me_list p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.5rem;
+}
+
+.vl {
+  border-left: 0.3rem solid #a6a6a6;
+  height: 2rem;
+  border-radius: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.overlay {
+  width: 100vw;
+  height: 150vh;
+  /* background: linear-gradient(#141e30, #290422); */
+  background: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+  /* background: linear-gradient(to top left, rgb(17, 7, 14), rgba(56, 32, 47, 0), rgb(49, 44, 48)), linear-gradient(to top right, rgb(20, 10, 19), rgba(26, 15, 22, 0), rgb(22, 16, 12)) #ee7a4d; */
+  opacity: 0.8;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.AboutText {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 40%;
+  }
+}

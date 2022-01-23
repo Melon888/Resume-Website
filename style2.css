@@ -1,0 +1,143 @@
+@-webkit-keyframes button-busy {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes button-busy {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+html {
+  height: 150%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container {
+  width: 100vw;
+  height: 150vh;
+  background: url("/utt.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.my_navbar {
+  width: 100%;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.nav-item a {
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.Container p {
+  color: white;
+}
+
+.myPic {
+  width: 15%;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  margin-top: -3rem;
+  margin-bottom: -1rem;
+  /* box-shadow: 0px 10px -14px 14px #fff; */
+}
+
+.name {
+  font-family: "Varela Round", sans-serif;
+  font-size: 6.5rem;
+  font-weight: 25;
+  line-height: 7.5rem;
+  letter-spacing: 0.5rem;
+  color: #a6a6a6;
+}
+
+.me_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #a6a6a6;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.me_list p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.5rem;
+}
+
+.vl {
+  border-left: 0.3rem solid #a6a6a6;
+  height: 2rem;
+  border-radius: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.overlay {
+  width: 100vw;
+  height: 150vh;
+  /* background: linear-gradient(#141e30, #290422); */
+  background: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+  /* background: linear-gradient(to top left, rgb(17, 7, 14), rgba(56, 32, 47, 0), rgb(49, 44, 48)), linear-gradient(to top right, rgb(20, 10, 19), rgba(26, 15, 22, 0), rgb(22, 16, 12)) #ee7a4d; */
+  opacity: 0.8;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.AboutText {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 40%;
+  }
+}
+/*# sourceMappingURL=style2.css.map */

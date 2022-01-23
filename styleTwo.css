@@ -1,0 +1,38 @@
+.pro_list {
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.each_list {
+  display: flex;
+  flex-direction: column;
+  margin: 4vh;
+}
+
+.pro_img {
+  height: 34vh;
+  width: 24vw;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+.pro_desc {
+  width: 18rem;
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #a6a6a6;
+}
+
+@media (max-width: 780px) {
+  html {
+    font-size: 55%;
+  }
+
+  .pro_img {
+    height: 25vh;
+    width: 25vw;
+  }
+}
