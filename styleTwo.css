@@ -36,3 +36,21 @@
     width: 25vw;
   }
 }
+
+@media (max-width: 476px) {
+  .pro_img {
+    height: 32vh;
+    width: 60vw;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+  }
+
+  .pro_desc {
+    font-size: 2vh;
+    width: 25rem;
+  }
+
+  .pro_list {
+    margin: 5rem;
+  }
+}

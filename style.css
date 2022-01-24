@@ -159,7 +159,7 @@ html {
   color: #ffffff;
   text-align: center;
   font-family: arial, helvetica, sans-serif;
-  padding: 12px 10px 12px 10px;
+  padding: 0.8rem 0.6rem 0.8rem 0.6rem;
   font-weight: bold;
   width: 20%;
   height: 6%;
@@ -213,6 +213,13 @@ html {
   padding-left: 3rem;
   background-color: #000000;
 }
+
+/* .outer_outer_exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
 .outer_exp {
   display: flex;
   flex-direction: column;
@@ -321,10 +328,40 @@ hr.newhr {
   html {
     font-size: 45%;
   }
+  .AboutText {
+    font-size: 3vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
 
-  .pro_img {
-    height: 20vh;
-    width: 25vw;
+  .hey2 {
+    line-height: 4rem;
+  }
+
+  .button {
+
+    width:30%;
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  .experience {
+    padding: 0rem 5rem 0rem 0rem;
+    justify-content: flex-start;
+  }
+
+  .workexp {
+    width: 40rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .projects {
+    height: 310vh;
+  }
+
+  .name {
+    font-size: 8.5vw;
+    line-height: 5.5rem;
+    letter-spacing: 0.3rem;
   }
 }
 
@@ -333,8 +370,14 @@ hr.newhr {
     font-size: 30%;
   }
 
+  .AboutText {
+    font-size: 3vw;
+  }
+
   .pro_img {
-    height: 20vh;
-    width: 25vw;
+    height: 32vh;
+    width: 60vw;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
   }
 }
