@@ -26,6 +26,10 @@
   color: #a6a6a6;
 }
 
+.a_tag {
+  text-decoration: none;
+}
+
 @media (max-width: 780px) {
   html {
     font-size: 55%;
